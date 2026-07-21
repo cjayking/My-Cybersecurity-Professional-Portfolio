@@ -24,9 +24,7 @@ I responded to simulated ransomware and phishing incidents by:
 
 ## Screenshots & Evidence
 
-![I](./images/incident-journal1.png)
-
-![Incident Handler’s Journal](./images/incident-journal2.png)  
+![Incident Handler’s Journal](./images/incident-journal.png)  
 **Incident Handler’s Journal** – Documented multiple security incidents.
 
 ![Phishing Playbook](./images/phishing-playbook.png)  
