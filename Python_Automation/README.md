@@ -47,11 +47,19 @@ I built practical automation scripts that help security teams reduce manual work
 ### Example: Device ID Extractor
 
 ```python
-import re
+# Assign `import_file` to the name of the text file that contains the security log file
 
-devices = "r262c36 ... r15xk9h ... r159r1u"
+import_file = "data/login.txt"
 
-target_pattern = r"r15\w+"
-matching_devices = re.findall(target_pattern, devices)
+# The`with` statement
+# Use `open()` to import security log file and store it as a string
 
-print("Devices needing update:", matching_devices)
+with open(import_file, "r") as file:
+
+  # Use `.read()` to read the imported file and store the result in a variable named `text`
+
+  text = file.read()
+
+# Display the contents of `text`
+
+print(text)
