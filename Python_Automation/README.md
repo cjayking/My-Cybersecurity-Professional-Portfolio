@@ -44,19 +44,14 @@ I built practical automation scripts that help security teams reduce manual work
 
 [← Back to Main Portfolio](../README.md)
 
-```# Assign `import_file` to the name of the text file that contains the security log file
+### Example: Device ID Extractor
 
-import_file = "data/login.txt"
+```python
+import re
 
-# The`with` statement
-# Use `open()` to import security log file and store it as a string
+devices = "r262c36 ... r15xk9h ... r159r1u"
 
-with open(import_file, "r") as file:
+target_pattern = r"r15\w+"
+matching_devices = re.findall(target_pattern, devices)
 
-  # Use `.read()` to read the imported file and store the result in a variable named `text`
-
-  text = file.read()
-
-# Display the contents of `text`
-
-print(text)```
+print("Devices needing update:", matching_devices)
