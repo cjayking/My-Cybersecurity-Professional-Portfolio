@@ -87,4 +87,3 @@ Built scripts for log parsing, regex analysis, file updates, and device identifi
 ## Acknowledgments
 This portfolio was built as part of the Google Cybersecurity Professional Certificate program. All projects are based on hands-on labs and scenarios.
 
-*Last updated: July 2026*
