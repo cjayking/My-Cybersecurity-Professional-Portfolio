@@ -15,6 +15,7 @@ This lab demonstrates the design and implementation of a secure 3-tier network a
                         [ WAN / Internet ]
                                 |
                           [ Public IP ]
+                           (10.0.0.15)
                                 |
                     +-----------+-----------+
                     |    OPNsense Firewall  |
