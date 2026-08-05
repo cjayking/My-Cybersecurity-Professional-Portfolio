@@ -72,8 +72,8 @@ Built scripts for log parsing, regex analysis, file updates, and device identifi
 
 ## Resume & Credentials
 - **[Download Resume (PDF)](./resume.pdf)**
-- **[Google Cybersecurity Professional Certificate](link-to-your-certificate)**
-- **[CompTIA Security+ Certification](link-to-credly)**
+- **[Google Cybersecurity Professional Certificate](CompTIA Security+ ce certificate.pdf)**
+- **[CompTIA Security+ Certification](Google Cybersecurity Cert.pdf)**
 
 ---
 
