@@ -12,18 +12,18 @@ This lab demonstrates the design and implementation of a secure 3-tier network a
 
 ## Network Architecture
 ```text
-                  +-------------------+
-                  |   WAN (Internet)  |
-                  +---------+---------+
+                   +-------------------+
+                   |   WAN (Internet)  |
+                   +--------+----------+
                             |
                    [ OPNsense Firewall ]
                   /                   \
-        +--------+--------+   +--------+--------+
-        |   DMZ Subnet    |   |   LAN Subnet    |
-        | (192.168.50.0/24)|   | (192.168.1.186/24)   |
-        +--------+--------+   +--------+--------+
+        +--------+--------+   +--------+---------+
+        |   DMZ Subnet    |   |    LAN Subnet    |
+        |(192.168.50.0/24)|   |(192.168.1.186/24)|
+        +--------+--------+   +--------+---------+
                  |                     |
-          [ Nginx Web Server]   [ Internal Admin ]
+        [ Nginx Web Server]   [ Internal Admin ]
 ```
 ## Key Implementation Steps
 
