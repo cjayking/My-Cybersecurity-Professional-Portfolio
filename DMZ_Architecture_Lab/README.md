@@ -27,6 +27,7 @@ This lab demonstrates the design and implementation of a secure 3-tier network a
        |                                                 |
 [ Hardened Nginx ]                                [ Admin Workstation ]
   (172.16.10.50)                                     (192.168.1.186)
+
 Figure 1: High-level topology illustrating strict traffic boundary isolation across WAN, LAN, and DMZ interfaces
 ```
 ## Key Implementation Steps
