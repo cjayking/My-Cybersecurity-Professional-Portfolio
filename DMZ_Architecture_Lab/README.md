@@ -20,7 +20,7 @@ This lab demonstrates the design and implementation of a secure 3-tier network a
                   /                   \
         +--------+--------+   +--------+---------+
         |   DMZ Subnet    |   |    LAN Subnet    |
-        |(192.168.50.0/24)|   |(192.168.1.186/24)|
+        |(171.16.10.50/24)|   |(192.168.1.186/24)|
         +--------+--------+   +--------+---------+
                  |                     |
         [ Nginx Web Server]   [ Internal Admin ]
