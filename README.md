@@ -71,9 +71,9 @@ Designed and implemented a secure 3-tier DMZ architecture using OPNsense, with T
 ## 🛠️ Tools & Technologies
 - **OS & CLI:** Linux, Bash
 - **Languages:** Python, SQL
-- **Security Tools:** Wireshark, tcpdump, Wazuh, Suricata
+- **Security Tools:** Wireshark, tcpdump, Wazuh, Suricata, OPNsense, Nmap, OpenSSL
 - **Frameworks:** NIST, CIA Triad, CompTIA Security+ domains
-- **Others:** Git, Regular Expressions, Virtual Machines
+- **Others:** Git, Regular Expressions, Virtual Machines, Nginx
 
 ---
 
