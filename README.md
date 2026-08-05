@@ -60,7 +60,6 @@ Built scripts for log parsing, regex analysis, file updates, and device identifi
 [View Project →](./Python_Automation/)
 
 ## 📂 Personal Project
-
 ### 3-Tier Enterprise DMZ Architecture & Perimeter Defense Lab
 **Network Segmentation & Perimeter Defense**  
 Designed and implemented a secure 3-tier DMZ architecture using OPNsense, with TLS 1.3 enforcement and attack surface minimization.  
